@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    float a,b;
+    float product;
+    printf("enter number 1: ");
+    scanf("%f",&a);
+    printf("enter number 2; ");
+    scanf("%f",&b);
+    product=a*b;
+    printf("the product of the 2 numbers: %f",product);
+    return 0;
+}
